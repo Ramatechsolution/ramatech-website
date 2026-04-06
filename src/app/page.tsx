@@ -174,6 +174,22 @@ const SCHEMA = {
       ],
     },
     {
+      "@type": "LocalBusiness",
+      "@id": "https://ramatech.co.in/#business",
+      "name": "RamaTech Solution",
+      "url": "https://ramatech.co.in",
+      "description": "AI-powered DevOps, Observability, OpenShift and SAP consulting for startups and enterprises across India and globally.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN",
+        "addressRegion": "India"
+      },
+      "priceRange": "$$",
+      "serviceType": ["DevOps Consulting", "Kubernetes Setup", "Observability", "OpenShift", "SAP Integration"],
+      "areaServed": ["India", "United States", "United Kingdom"],
+      "sameAs": ["https://linkedin.com/company/ramatechsolution"]
+    },
+    {
       "@type": "FAQPage",
       mainEntity: FAQS.map((f) => ({
         "@type": "Question",
@@ -305,8 +321,8 @@ function TerminalBlock() {
   const lines = [
     { t: 0, text: "$ ramatech audit --target production", cls: "term-cmd" },
     { t: 400, text: "→ Scanning observability gaps...", cls: "term-info" },
-    { t: 900, text: "→ Analyzing CI/CD pipeline efficiency...", cls: "term-info" },
-    { t: 1400, text: "→ Checking OpenShift cluster health...", cls: "term-info" },
+    { t: 900, text: "→ Analyzing CI/CD efficiency...", cls: "term-info" },
+    { t: 1400, text: "→ Checking OpenShift health...", cls: "term-info" },
     { t: 1900, text: "✓ 3 critical improvements identified", cls: "term-success" },
     { t: 2300, text: "✓ Estimated cost saving: 31%", cls: "term-success" },
     { t: 2700, text: "✓ Delivery timeline: 12 days", cls: "term-success" },
@@ -459,9 +475,9 @@ export default function Home() {
                 transition={{ duration: 0.7, delay: 0.1 }}
                 className="hero__headline"
               >
-                Enterprise infrastructure.
+                DevOps &amp; Cloud Consulting India —
                 <br />
-                <span className="hero__headline--accent">Delivered in weeks,</span>
+                <span className="hero__headline--accent">delivered in weeks,</span>
                 <br />
                 not quarters.
               </motion.h1>
