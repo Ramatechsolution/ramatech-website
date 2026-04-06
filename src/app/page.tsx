@@ -690,7 +690,7 @@ export default function Home() {
                     Book Free Audit →
                   </a>
                   <a
-                    href="https://linkedin.com/company/ramatechsolution"
+                    href="https://www.linkedin.com/company/observablesystems/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn--ghost btn--lg"
