@@ -78,8 +78,12 @@ export const metadata: Metadata = {
     },
   },
 
+  verification: {
+    google: "PASTE_YOUR_GOOGLE_VERIFICATION_CODE_HERE",
+  },
+
   alternates: {
-    canonical: "https://ramatech.co.in",
+    canonical: "https://www.ramatech.co.in",
   },
 
   category: "technology",
