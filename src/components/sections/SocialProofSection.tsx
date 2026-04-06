@@ -38,7 +38,9 @@ export default function SocialProofSection() {
           {testimonials.map((item, index) => (
             <FadeIn key={item.author} delay={0.12 + index * 0.08}>
               <div className="glass-card rounded-2xl p-6">
-                <p className="text-base leading-relaxed text-slate-200">"{item.quote}"</p>
+                <p className="text-base leading-relaxed text-slate-200">
+                  &quot;{item.quote}&quot;
+                </p>
                 <p className="mt-4 text-sm text-blue-200">{item.author}</p>
               </div>
             </FadeIn>
