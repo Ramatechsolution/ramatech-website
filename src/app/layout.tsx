@@ -11,29 +11,30 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://ramatech.co.in"),
 
   title: {
-    default: "RamaTech Solution — AI-Powered Infrastructure Consulting India",
+    default: "RamaTech Solution — DevOps, Kubernetes & Cloud Infrastructure Consulting",
     template: "%s | RamaTech Solution",
   },
 
   description:
-    "RamaTech Solution delivers enterprise-grade Observability, OpenShift, DevOps, and SAP integration — AI-accelerated, production-ready, in weeks not months. Trusted by startups and enterprises across India and globally.",
+    "RamaTech Solution delivers AI-accelerated DevOps, Kubernetes, Observability, OpenShift and SAP consulting for startups and enterprises worldwide. Production-ready infrastructure in weeks, not months.",
 
   keywords: [
-    "DevOps consulting India",
-    "Kubernetes setup India",
+    "DevOps consulting",
+    "Kubernetes consulting",
+    "DevOps consulting agency",
+    "Kubernetes setup service",
+    "Observability engineering",
     "OpenShift consulting",
-    "Observability services India",
-    "VictoriaMetrics Grafana setup",
     "SAP integration consulting",
     "CI/CD pipeline setup",
     "AI-powered DevOps",
-    "infrastructure consulting India",
+    "remote infrastructure consulting",
+    "cloud infrastructure consulting",
     "SRE consulting",
-    "cloud infrastructure India",
     "Terraform consulting",
-    "monitoring and alerting setup",
-    "RamaTech Solution",
-    "ramatech.co.in",
+    "Grafana VictoriaMetrics setup",
+    "DevOps as a service",
+    "platform engineering consulting",
   ],
 
   authors: [{ name: "RamaTech Solution", url: "https://ramatech.co.in" }],
@@ -42,12 +43,12 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     url: "https://ramatech.co.in",
     siteName: "RamaTech Solution",
-    title: "RamaTech Solution — AI-Powered Infrastructure Consulting",
+    title: "RamaTech Solution — AI-Powered DevOps & Cloud Consulting",
     description:
-      "4 enterprise specialists in Observability, OpenShift, DevOps & SAP — using AI to deliver production infrastructure in weeks, not quarters.",
+      "4 enterprise specialists delivering DevOps, Kubernetes, Observability and SAP consulting worldwide. AI-accelerated. Production-ready.",
     images: [
       {
         url: "/og-image.png",
@@ -60,9 +61,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "RamaTech Solution — AI-Powered Infrastructure Consulting",
+    title: "RamaTech Solution — AI-Powered DevOps & Cloud Consulting",
     description:
-      "Enterprise Observability, OpenShift, DevOps & SAP integration — AI-accelerated delivery for startups and enterprises.",
+      "Enterprise DevOps, Kubernetes, Observability & SAP consulting — AI-accelerated delivery worldwide.",
     images: ["/og-image.png"],
   },
 
@@ -79,7 +80,7 @@ export const metadata: Metadata = {
   },
 
   verification: {
-    google: "PASTE_YOUR_GOOGLE_VERIFICATION_CODE_HERE",
+    google: "imK5HSTIM_iXUs28zT7WtctAM7w8SjzgfwPoTKe2irs",
   },
 
   alternates: {

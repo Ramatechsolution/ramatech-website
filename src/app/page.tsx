@@ -162,7 +162,7 @@ const SCHEMA = {
       description:
         "AI-powered infrastructure consulting — Observability, OpenShift, DevOps, and SAP Integration for startups and enterprises.",
       sameAs: [
-        "https://linkedin.com/company/ramatechsolution",
+        "https://www.linkedin.com/company/observablesystems/",
         "https://github.com/Ramatechsolution",
       ],
       knowsAbout: [
@@ -480,11 +480,11 @@ export default function Home() {
                 transition={{ duration: 0.7, delay: 0.1 }}
                 className="hero__headline"
               >
-                DevOps &amp; Cloud Consulting Globally —
+                AI-Powered DevOps &amp;
                 <br />
-                <span className="hero__headline--accent">delivered in weeks,</span>
+                <span className="hero__headline--accent">Cloud Infrastructure</span>
                 <br />
-                not quarters.
+                Consulting
               </motion.h1>
 
               <motion.p
@@ -493,8 +493,8 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.25 }}
                 className="hero__sub"
               >
-                Team of active enterprise specialists in Observability, OpenShift, DevOps, and SAP —
-                using AI-powered workflows to deliver what traditional agencies take months to build.
+                4 active enterprise specialists in Observability, OpenShift, DevOps, and SAP —
+                delivering production-ready infrastructure worldwide using AI-accelerated workflows.
               </motion.p>
 
               <motion.div
