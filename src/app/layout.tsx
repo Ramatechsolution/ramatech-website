@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ramtech DevOps",
+  title: "RamaTech Solution",
   description: "Deploy production-ready Kubernetes in 2 weeks for startups and SaaS founders."
 };
 

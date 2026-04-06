@@ -1,4 +1,4 @@
-# Ramtech Website
+# RamaTech Solution Website
 
 Modern, single-page DevOps agency landing page built with Next.js, React, Tailwind CSS, and Framer Motion.
 

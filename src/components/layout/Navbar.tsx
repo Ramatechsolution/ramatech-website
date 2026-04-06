@@ -12,7 +12,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/70 backdrop-blur-2xl">
       <nav className="section-shell flex h-18 items-center justify-between">
         <a href="#home" className="text-lg font-semibold tracking-tight text-white md:text-xl">
-          Ramtech <span className="text-indigo-300">DevOps</span>
+          RamaTech <span className="text-indigo-300">Solution</span>
         </a>
 
         <ul className="hidden items-center gap-8 text-sm text-slate-300 md:flex">

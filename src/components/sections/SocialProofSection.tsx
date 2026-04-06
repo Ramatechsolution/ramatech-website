@@ -5,7 +5,7 @@ const logos = ["LaunchLayer", "ScaleForge", "NovaSaaS", "CloudMint", "SyncPilot"
 const testimonials = [
   {
     quote:
-      "Ramtech helped us move from fragile deploys to a clean Kubernetes workflow in less than 2 weeks.",
+      "RamaTech Solution helped us move from fragile deploys to a clean Kubernetes workflow in less than 2 weeks.",
     author: "Founder, B2B SaaS startup"
   },
   {

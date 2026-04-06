@@ -28,7 +28,7 @@ export default function Home() {
       <CTASection />
       <footer className="mt-8 border-t border-white/10 py-10">
         <div className="section-shell text-center text-sm text-slate-400">
-          Ramtech DevOps - Kubernetes and Cloud for fast-growing startups.
+          RamaTech Solution - Kubernetes and Cloud for fast-growing startups.
         </div>
       </footer>
     </main>
