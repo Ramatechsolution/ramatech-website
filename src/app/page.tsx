@@ -167,7 +167,7 @@ const SCHEMA = {
         contactType: "sales",
         url: "https://ramatech.co.in/#contact",
       },
-      areaServed: ["IN", "US", "GB"],
+      areaServed: ["US", "GB", "AU", "CA", "SG", "AE", "IN", "DE"],
       knowsAbout: [
         "Kubernetes", "OpenShift", "DevOps", "Observability",
         "VictoriaMetrics", "Grafana", "SAP", "CI/CD", "Terraform",
@@ -175,19 +175,13 @@ const SCHEMA = {
     },
     {
       "@type": "ProfessionalService",
-      "@id": "https://ramatech.co.in/#business",
+      "@id": "https://ramatech.co.in/#service",
       "name": "RamaTech Solution",
       "url": "https://ramatech.co.in",
-      "description": "AI-powered DevOps, Observability, OpenShift and SAP consulting for startups and enterprises across India and globally.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "IN",
-        "addressRegion": "India"
-      },
-      "priceRange": "$$",
-      "serviceType": ["DevOps Consulting", "Kubernetes Setup", "Observability", "OpenShift", "SAP Integration"],
-      "areaServed": ["India", "United States", "United Kingdom"],
-      "sameAs": ["https://linkedin.com/company/ramatechsolution"]
+      "description": "AI-powered DevOps, Kubernetes, Observability, OpenShift and SAP consulting for startups and enterprises globally.",
+      "serviceType": ["DevOps Consulting", "Kubernetes Setup", "Observability Engineering", "OpenShift", "SAP Integration", "CI/CD"],
+      "areaServed": "Worldwide",
+      "provider": { "@id": "https://ramatech.co.in/#org" }
     },
     {
       "@type": "FAQPage",
