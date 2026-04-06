@@ -116,6 +116,14 @@ const FAQS: FAQ[] = [
     q: "How do we start?",
     a: "Book a free 30-minute technical audit. We'll review your current setup, identify the highest-impact gaps, and give you a concrete roadmap — regardless of whether you hire us. No sales pitch, just an honest technical assessment.",
   },
+  {
+    q: "Do you work with clients outside India?",
+    a: "Yes — the majority of our engagements are remote and global. We work with engineering teams across the US, UK, Europe, Southeast Asia, and the Middle East. Time zones are manageable with async-first communication and structured weekly syncs.",
+  },
+  {
+    q: "How do you handle knowledge transfer after the project?",
+    a: "Every engagement ends with a complete handover package: architecture decision records, runbooks, Confluence or Notion documentation, and a recorded walkthrough session. Your team can maintain and extend everything we build independently.",
+  },
 ];
 
 const PROCESS = [
@@ -531,6 +539,40 @@ export default function Home() {
             >
               <TerminalBlock />
             </motion.div>
+          </div>
+        </section>
+
+        <section
+          className="section section--dark"
+          style={{ padding: "clamp(1.5rem, 4vw, 2.5rem) 0" }}
+        >
+          <div className="container" style={{ textAlign: "center" }}>
+            <p>
+              Specialists trusted by engineering teams across US · UK · Europe · Southeast Asia ·
+              Middle East
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "0.75rem",
+                flexWrap: "wrap",
+                marginTop: "0.9rem",
+              }}
+            >
+              {[
+                "Kubernetes",
+                "OpenShift",
+                "VictoriaMetrics",
+                "Terraform",
+                "SAP S/4HANA",
+              ].map((badge) => (
+                <span key={badge} className="hero__domain-pill">
+                  {badge}
+                </span>
+              ))}
+            </div>
           </div>
         </section>
 
