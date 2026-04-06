@@ -174,7 +174,7 @@ const SCHEMA = {
       ],
     },
     {
-      "@type": "LocalBusiness",
+      "@type": "ProfessionalService",
       "@id": "https://ramatech.co.in/#business",
       "name": "RamaTech Solution",
       "url": "https://ramatech.co.in",
@@ -475,7 +475,7 @@ export default function Home() {
                 transition={{ duration: 0.7, delay: 0.1 }}
                 className="hero__headline"
               >
-                DevOps &amp; Cloud Consulting India —
+                DevOps &amp; Cloud Consulting Globally —
                 <br />
                 <span className="hero__headline--accent">delivered in weeks,</span>
                 <br />
@@ -488,7 +488,7 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.25 }}
                 className="hero__sub"
               >
-                4 active enterprise specialists in Observability, OpenShift, DevOps, and SAP —
+                Team of active enterprise specialists in Observability, OpenShift, DevOps, and SAP —
                 using AI-powered workflows to deliver what traditional agencies take months to build.
               </motion.p>
 
@@ -679,7 +679,7 @@ export default function Home() {
                 </p>
                 <div className="cta-block__actions">
                   <a
-                    href="mailto:hello@ramatech.co.in"
+                    href="mailto:info@ramatech.co.in"
                     className="btn btn--primary btn--lg"
                   >
                     Book Free Audit →
