@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b0f19;
+  --background-soft: #11172a;
+  --foreground: #e6eaf2;
+  --muted: #a4afc3;
+  --card: rgba(255, 255, 255, 0.04);
+  --card-border: rgba(255, 255, 255, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(900px 500px at 10% -5%, rgba(59, 130, 246, 0.24), transparent 60%),
+    radial-gradient(800px 500px at 92% 0%, rgba(139, 92, 246, 0.2), transparent 60%),
+    linear-gradient(180deg, var(--background-soft) 0%, var(--background) 42%);
+  color: var(--foreground);
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(99, 102, 241, 0.35);
+  color: #ffffff;
+}
+
+.section-shell {
+  @apply mx-auto max-w-6xl px-6;
+}
+
+.section-title {
+  @apply text-3xl font-semibold tracking-tight text-white md:text-4xl;
+}
+
+.section-lead {
+  @apply mt-4 max-w-2xl text-base leading-relaxed text-slate-300;
+}
+
+.glass-card {
+  background: linear-gradient(150deg, rgba(255, 255, 255, 0.1), var(--card));
+  border: 1px solid var(--card-border);
+  box-shadow:
+    0 20px 60px rgba(3, 7, 18, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #6ee7ff 0%, #60a5fa 45%, #a78bfa 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
