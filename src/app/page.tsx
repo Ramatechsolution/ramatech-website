@@ -418,7 +418,20 @@ export default function Home() {
       <header className="navbar">
         <div className="navbar__inner">
           <a href="#home" className="navbar__brand">
-            Rama<span>Tech</span>
+            <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
+              <img
+                src="/assets/ramatech-logo.png"
+                alt="RamaTech - AI-Powered Cloud Infrastructure & DevOps Consulting"
+                style={{
+                  height: "2.25rem",
+                  maxHeight: "40px",
+                  width: "auto",
+                }}
+              />
+              <span>
+                Rama<span>Tech</span>
+              </span>
+            </div>
           </a>
 
           <nav className="navbar__links">
@@ -754,6 +767,16 @@ export default function Home() {
         <div className="container footer__inner">
           <div className="footer__brand">
             <span className="navbar__brand">Rama<span>Tech</span></span>
+            <img
+              src="/assets/ramatech-logo.png"
+              alt="RamaTech - AI-Powered Cloud Infrastructure & DevOps Consulting"
+              style={{
+                height: "1.6rem",
+                maxHeight: "35px",
+                width: "auto",
+                marginBottom: "0.25rem",
+              }}
+            />
             <p className="footer__tagline">
               AI-powered infrastructure consulting — Observability · OpenShift · DevOps · SAP
             </p>

@@ -52,10 +52,8 @@ export const metadata: Metadata = {
       "4 enterprise specialists delivering DevOps, Kubernetes, Observability and SAP consulting worldwide. AI-accelerated. Production-ready.",
     images: [
       {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "RamaTech Solution — AI-Powered Infrastructure Consulting",
+        url: "/assets/ramatech-logo.png",
+        alt: "RamaTech - AI-Powered Cloud Infrastructure & DevOps Consulting",
       },
     ],
   },
@@ -65,7 +63,7 @@ export const metadata: Metadata = {
     title: "RamaTech Solution — AI-Powered DevOps & Cloud Consulting",
     description:
       "Enterprise DevOps, Kubernetes, Observability & SAP consulting — AI-accelerated delivery worldwide.",
-    images: ["/og-image.png"],
+    images: ["/assets/ramatech-logo.png"],
   },
 
   robots: {
@@ -101,6 +99,8 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/assets/favicon-32x32.png" type="image/png" sizes="32x32" />
       </head>
       <body>{children}</body>
     </html>
